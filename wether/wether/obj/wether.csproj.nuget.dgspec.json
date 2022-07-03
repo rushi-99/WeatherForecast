@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/admin/Projects/wether/wether/wether.csproj": {}
+  },
+  "projects": {
+    "/Users/admin/Projects/wether/wether/wether.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/admin/Projects/wether/wether/wether.csproj",
+        "projectName": "wether",
+        "projectPath": "/Users/admin/Projects/wether/wether/wether.csproj",
+        "packagesPath": "/Users/admin/.nuget/packages/",
+        "outputPath": "/Users/admin/Projects/wether/wether/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/admin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "IdeaTech.System.Web.Mvc.Extensions": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.24, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Syncfusion.EJ2.AspNet.Core": {
+              "target": "Package",
+              "version": "[20.2.0.36, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "System.Web.Mvc.Extensions.Mvc.4": {
+              "target": "Package",
+              "version": "[1.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.104/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
